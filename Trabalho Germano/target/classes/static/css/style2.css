@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin: 0;
+    background-color: #E6E6FA	;
+    /* Remova a margem padrão do corpo */
+}
+
+.sidebar {
+    height: 100vh;
+    width: 200px;
+    background-color: #F08080;
+    padding-top: 20px;
+    position: fixed;
+    left: 0;
+    /* Alinhe à borda esquerda da página */
+    top: 0;
+    /* Alinhe à borda superior da página */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+
+.sidebar a {
+    padding: 40px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.sidebar a:hover {
+    background-color: #CD5C5C;
+}
+
+.sidebar a i {
+    margin-right: 8px;
+}
+
+.content {
+    margin-left: 200px;
+    /* Ajuste o espaçamento à direita para evitar sobreposição */
+    padding: 20px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #E6E6FA;
+}
+
+#cadastroForm {
+    width: 700px; /* Ajuste conforme necessário */
+    margin: 0 auto; /* Isso centralizará o formulário na página */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+#mensagemDiv {
+    text-align: center;
+}
+
+#mensagemDiv span {
+    display: inline-block;
+}
